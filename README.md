@@ -130,10 +130,19 @@ The Equivalent Functional Component
    )
  }
  ```
- ###10. What are the advantages of React?
+ ### 10. What are the advantages of React?
+
   a. Increases the application's performance with Virtual DOM.
   b. JSX makes code easy to read and write.
   c. It renders both on client and server side (SSR).
   d. Easy to integrate with frameworks (Angular, Backbone) since it is only a view library.
   e. Easy to write unit and integration tests with tools such as Jest.
   
+### 11. What is the benefit of Virtual DOM?
+Each time you make a change in the code, DOM will be completely updated and rewritten. This is an expensive operation and consumes lots of time. In this point,  Virtual DOM in React provides a solution:
+1. React first creates an exact copy of the DOM
+2. Then React figures out which part is new and only updates that specific part in the Virtual DOM
+3. Finally, React copies only the new parts of the Virtual DOM to the actual DOM, rather than completely rewriting it.
+
+### 12.  what is this JSX?
+JSX (JavaScript XML) is a syntax extension to JavaScript used by React. JSX is basically used to write HTML tags inside JavaScript. That is HTML tags are rendered directly inside JavaScript. 
