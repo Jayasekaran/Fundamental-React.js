@@ -145,4 +145,4 @@ Each time you make a change in the code, DOM will be completely updated and rewr
 3. Finally, React copies only the new parts of the Virtual DOM to the actual DOM, rather than completely rewriting it.
 
 ### 12.  what is this JSX?
-JSX (JavaScript XML) is a syntax extension to JavaScript used by React. JSX is basically used to write HTML tags inside JavaScript. That is HTML tags are rendered directly inside JavaScript. 
+JSX (JavaScript XML) is a syntax extension to JavaScript used by React. JSX is basically used to write HTML tags inside JavaScript. That is HTML tags are rendered directly inside JavaScript. JSX simplifies React and makes it easier to read.
