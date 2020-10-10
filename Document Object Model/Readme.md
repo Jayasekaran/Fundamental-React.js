@@ -17,3 +17,5 @@ This is a practical introduction to the fundamentals of the DOM. DOM is defined 
 ```
 The DOM documents have a logical structure which is very much like a tree. The object model specifies the logical model for the programming interface, and this logical model may be implemented in any way that a particular implementation finds convenient
 ![Test Image 6](dom.png)
+
+Each time you make a change in the code, DOM will be completely updated and rewritten. 
